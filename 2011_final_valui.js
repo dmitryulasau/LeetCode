@@ -13,3 +13,4 @@ const finalValueAfterOperations = function (operations) {
 };
 
 console.log(finalValueAfterOperations(["++X", "++X", "X++"]));
+

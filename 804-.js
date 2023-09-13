@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/unique-morse-code-words/
 
 var uniqueMorseRepresentations = function(words) {
-    onst morseCodeMapping = [
+    const morseCodeMapping = [
         ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..",
         "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-",
         "-.--", "--.."

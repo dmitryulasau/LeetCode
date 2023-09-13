@@ -12,7 +12,7 @@ var countMatches = function (items, ruleKey, ruleValue) {
         count++;
       }
     } else if (ruleKey === "name") {
-      if (items[i][3] === ruleValue) {
+      if (items[i][2] === ruleValue) {
         count++;
       }
     }

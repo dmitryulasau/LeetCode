@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
 
 var mergeTwoLists = function (list1, list2) {
-  let dummy = new ListNode(-1); // Create a dummy node to simplify the code
+  let dummy = new ListNode(-1); // Create a dummy node
   let current = dummy;
 
   while (list1 !== null && list2 !== null) {
